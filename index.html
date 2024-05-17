@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon links and meta tags-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Pokédex</title>
+</head>
+<body>
+    <main>
+        <!-- Pokemon image -->
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="pokemon" class="pokemon_image">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number">6</span> -
+            <span class="pokemon_name">charizard</span>
+        </h1>
+
+        <!-- Form for search Pokemon -->
+        <form action="" class="form">
+            <input 
+                type="search"
+                class="input_seach"
+                placeholder="Name or Number"
+                required
+            />
+        </form>
+
+        <!-- Buttons to show Next or Previous Pokemon -->
+        <div class="buttons">
+            <button class="button btn-prev">&lt;</button>
+            <button class="button btn-next">&gt;</button>
+        </div>
+        
+        <!-- Pokédex image -->
+        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+</body>
+</html>
