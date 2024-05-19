@@ -7,9 +7,14 @@
     font-family: 'Oxanium', cursive;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff), no-repeat;
+    min-height: 100vh;
 }
 
 main {
@@ -59,15 +64,15 @@ main {
     outline: none;
     border: 2px solid #333;
     font-weight: 600;
-    color: #42A826;
+    color: #9ca799;
     font-size: clamp(8px, 5vw, 1rem);
 }
 
 .buttons {
     position: absolute;
-    bottom: 10%;
-    left: 50%;
-    width: 65%;
+    bottom: 27%;
+    left: 66.5%;
+    width: 12.5%;
     transform: translate(-57% ,0);
 }
 
@@ -77,10 +82,20 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    float:left;
     width: 50%;
-    padding: 4%;
+    padding: 2%;
     font-size: clamp(5px, 5vw, 1rem);
     background-color: transparent;
     text-align: center;
     justify-content: center;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(72, 74, 74, 0.3);
+}
+
+button:active {
+    background-color: rgb(72, 74, 74, 0.7);
 }
